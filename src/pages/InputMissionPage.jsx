@@ -12,7 +12,7 @@ function InputMissionPage() {
   }
 
   return (
-    <div className="App-body">
+    <div className="">
       <div className="container col-xl-6">
         <Logo />
         <InputMissionForm submitHandler={uploadMission} />

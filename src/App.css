@@ -7,6 +7,46 @@
   pointer-events: none;
 }
 
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images4/Simple-Background-HD-for-Desktop.jpg");
+  background-attachment: fixed;
+
+  background-size: cover;
+  object-fit: cover;
+  animation: shrink 12s infinite alternate;
+  stroke-opacity: inherit;
+}
+
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+
+  10% {
+    background-size: 109% 109%;
+  }
+
+  20% {
+    background-size: 108% 108%;
+  }
+
+  30% {
+    background-size: 107% 107%;
+  }
+
+  60% {
+    background-size: 105% 105%;
+  }
+
+  80% {
+    background-size: 103% 103%;
+  }
+
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 5s linear;
