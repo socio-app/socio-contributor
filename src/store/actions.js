@@ -24,6 +24,7 @@ export function postMission(payload) {
       swalLoading()
 
       const response = await axios({
+        method: 'post',
         url: `/missions`,
         data: mission,
       })
