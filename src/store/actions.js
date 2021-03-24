@@ -1,6 +1,5 @@
 import { swal, swalLoading, swalClose } from '../helpers/swal'
 import axios from '../api/axios'
-import Swal from 'sweetalert2'
 
 export function setMissions(payload) {
   return { type: 'MISSIONS/SET_MISSIONS', payload }
