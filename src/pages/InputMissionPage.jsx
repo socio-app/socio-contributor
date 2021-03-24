@@ -12,11 +12,12 @@ function InputMissionPage() {
   }
 
   return (
-    <div className="">
+    <div className="App-body">
       <div className="container col-xl-6">
         <Logo />
         <InputMissionForm submitHandler={uploadMission} />
       </div>
+      <div className="body-background-image"></div>
     </div>
   )
 }
